@@ -15,7 +15,7 @@
     "test": "jest",
     "test:dev": "jest --watchAll",
     "test:coverage": "jest --coverage --no-cache",
-    "clean": "del ./dist/*",
+    "clean": "del dist/*",
     "publish": "npm version patch && npm run build && npm publish"
   },
   "keywords": [],
