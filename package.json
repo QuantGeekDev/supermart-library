@@ -1,8 +1,11 @@
 {
-  "name": "@online-supermarket/common",
+  "name": "@supermart/supermartlib",
   "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
   "types": "/dist/index.d.ts",
   "scripts": {
     "build:dev": "tsc -w",
