@@ -1,6 +1,6 @@
 {
   "name": "@supermart/supermartlib",
-  "version": "1.0.2",
+  "version": "1.0.6",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -9,13 +9,12 @@
   "types": "/dist/index.d.ts",
   "scripts": {
     "build:dev": "tsc -w",
-    "build": "npm run clean && tsc",
+    "build": "tsc",
     "start": "node .",
     "start:dev": "node --watch .",
     "test": "jest",
     "test:dev": "jest --watchAll",
     "test:coverage": "jest --coverage --no-cache",
-    "clean": "del ./dist/*",
     "publish": "npm version patch && npm run build && npm publish"
   },
   "keywords": [],
