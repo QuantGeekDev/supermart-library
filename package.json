@@ -9,12 +9,14 @@
   "types": "/dist/index.d.ts",
   "scripts": {
     "build:dev": "tsc -w",
-    "build": "tsc",
+    "build": "npm run clean && tsc",
     "start": "node .",
     "start:dev": "node --watch .",
     "test": "jest",
     "test:dev": "jest --watchAll",
-    "test:coverage": "jest --coverage --no-cache"
+    "test:coverage": "jest --coverage --no-cache",
+    "clean": "del ./dist/*",
+    "publish": "npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
