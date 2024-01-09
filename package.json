@@ -1,6 +1,6 @@
 {
   "name": "@supermart/supermartlib",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "dist/index.js",
   "files": [
@@ -14,8 +14,7 @@
     "start:dev": "node --watch .",
     "test": "jest",
     "test:dev": "jest --watchAll",
-    "test:coverage": "jest --coverage --no-cache",
-    "prepare": "husky install"
+    "test:coverage": "jest --coverage --no-cache"
   },
   "keywords": [],
   "author": "",
