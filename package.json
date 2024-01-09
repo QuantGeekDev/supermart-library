@@ -15,7 +15,7 @@
     "test": "jest",
     "test:dev": "jest --watchAll",
     "test:coverage": "jest --coverage --no-cache",
-    "publish": "npm version patch && npm run build && npm publish"
+    "pub": "npm version patch && npm run build && npm publish"
   },
   "keywords": [],
   "author": "",
