@@ -1,6 +1,6 @@
 {
   "name": "@supermart/supermartlib",
-  "version": "1.0.7",
+  "version": "1.0.14",
   "description": "",
   "main": "dist/index.js",
   "files": [
