@@ -8,3 +8,4 @@ export * from "./middlewares/errorHandler";
 export * from "./middlewares/requireAuth";
 export * from "./middlewares/validateRequest";
 export * from "./constants/auth/user.interfaces";
+export * from "./errors/errors.types";
