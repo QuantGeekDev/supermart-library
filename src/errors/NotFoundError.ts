@@ -4,12 +4,13 @@ export class NotFoundError extends CustomError {
   statusCode = 404;
 
   constructor() {
-    super("not found!");
+    const errorMessage = "Not Found";
+    super(errorMessage);
 
     Object.setPrototypeOf(this, NotFoundError.prototype);
   }
 
   serialiseErrors() {
-    return [{ message: "not found" }];
+    return [{ message: this.message }];
   }
 }
